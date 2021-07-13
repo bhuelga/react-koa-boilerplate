@@ -1,0 +1,6 @@
+/*
+ * Updates SQL
+ - - - - - - - -
+ This folder contains all completed SQL update scripts that should be run
+ on deployment.
+ */

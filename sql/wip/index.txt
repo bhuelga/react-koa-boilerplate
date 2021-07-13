@@ -1,0 +1,6 @@
+/*
+ * Work-In-Progress SQL
+ - - - - - - - -
+ This folder contains all work-in-progress SQL scripts that should not be run in
+ non-local environments yet.
+ */
