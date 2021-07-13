@@ -1,0 +1,18 @@
+version: "3"
+services:
+  mysql:
+    # ! Change container_name
+    container_name: react-koa-boilerplate
+    image: mysql:8
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    environment:
+      # ! Change MYSQL_DATABASE
+      MYSQL_DATABASE: react-koa-boilerplate
+      MYSQL_ROOT_PASSWORD: password
+
+volumes:
+  mysql-data:
+    driver: local

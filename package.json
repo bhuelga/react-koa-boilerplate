@@ -1,10 +1,10 @@
 {
   "name": "react-koa-boilerplate",
   "version": "1.0.0",
-  "description": "React, Koa, Typescript Boilerplate w/ enterprise user functio account functionalities",
+  "description": "React, Koa, Typescript Boilerplate w/ enterprise user function account functionalities",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docker": "docker compose up"
   },
   "author": "",
   "license": "ISC"

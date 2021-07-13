@@ -1,0 +1,33 @@
+// this should only be imported by the server
+module.exports = {                                                    // LOCAL notes
+  mysql: {
+    host: 'HOST_ADDRESS_HERE',                                        // "0.0.0.0" or "localhost"
+    user: 'USERNAME_HERE',                                            // "root"
+    password: 'PASSWORD_HERE',                                        // your local DB password
+    database: 'DATABASE_NAME_HERE',                                   // "healco"
+    timezone: 'Z',
+  },
+  sendgrid: {
+    api_key: 'YOUR_API_KEY_HERE',                                     // SendGrid Development Key
+    url: 'FRONTEND_BASE_URL_HERE'                                     // "http://localhost:3000"
+  },
+  stripe: {
+    publishableKey: 'PUBLISHABLE_KEY_HERE',                           // Stripe Publishable Key
+    secretKey: 'SECRET_KEY_HERE'                                      // Stripe Secret Key
+  },
+  authenthication: {
+    keys: [ 'AUTH_SESSION_KEY_HERE' ],                                // empty
+  },
+  environment: 'local',                                               // "local"
+  uploads: {
+    local : {
+     
+    }
+    bucket_name: {
+     
+    }
+  },
+  errors: {
+    email: '',                                                        // email that will receive error messages
+  }
+};
